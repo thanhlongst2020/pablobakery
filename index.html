@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Pablo West Bakery</title>
+</head>
+<body>
+
+  <!--Navigation Section-->
+  <nav class="nav_container">
+    <div>
+      <ul class="nav_items">
+        <li><a href="#home" class="nav_item-left">Pablo West Bakery</a></li>
+        <div class="nav_item-right">
+          <li><a href="about">About</a></li>
+          <li><a href="menu">Menu</a></li>
+          <li><a href="contact">Contact</a></li>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <!--Header Section-->
+  <header class="header" id="home">
+    <section class="bg_image">
+      <div class="title">
+        <h1 class="header-title">Pablo West</h1>
+        <h2 class="header-subtitle">Bakery</h2>
+      </div>
+    </section>
+  </header>
+  <!--About Section-->
+  <section id="about">
+    <div class="about_content-left"></div> <!--For the photo that is to be placed on the left-->
+      <div class="about_content-right">
+        <h1 class="about_title">About Us</h1>
+        <h5 class="about_subtitle">The best desserts ever!</h5>
+        <p class="about_text">Pablo West Bakery is an emerging name in the food industry. We are situated in Kiambu and are founded by Helen Barbara. We have a team of baking experts, coming from diverse parts of the country, elevating the brand with an overwhelming passion for good desserts. Our team is our pride. Our top-selling products are Red Velvet Cupcakes. </p>
+        <p class="about_text">We at Pablo West Bakery consider our clients' to be our powerhouse. We love to take and adapt to customer feedback, making us one of the friendliest bakers in the Kiambu neighborhood. Since 2020, we have serviced over 790 and hope to make more souls happy. Our aim is to be the number one dessert supplier in the country</p>
+        <a href="#" class="read_more">
+          <label for="more">Read more...</label>
+        </a>
+      </div>
+    </div> 
+  </section>
+  <hr>
+  <!--Menu Section-->
+  <section id="menu">
+    <section class="menu_content">
+      <h1 class="menu_title">Our Menu</h1>
+      <h2 class="menu_category">Cupcakes</h2>
+      <h2 class="menu_item">Red Velvet Cupcakes</h2>
+      <p class="menu_item-description">12 spongy red velvet cupcakes with vanilla frosting.</p>
+      <strong>Ksh 1,000.00</strong>
+      <h2 class="menu_item">Chocolate Cupcakes</h2>
+      <p class="menu_item-description">12 spongy chocolate cupcakes with chocolate buttercream frosting.</p>
+      <strong>Ksh 1,100.00</strong>
+      <h4 class="menu_item">Vanilla Flavoured Cupcakes</h4>
+      <p class="menu_item-description">12 spongy vanilla cupcakes with French Strawberry frosting.</p>
+      <strong>Ksh 1,100.00</strong>
+      <h2 class="menu_category">Cookies</h2>
+      <h2 class="menu_item">Chocolate Chip Cookies</h2>
+      <p class="menu_item-description">9 crunchy buttery cookies with a pop of milky chocolate chip.</p>
+      <strong>Ksh 900.00</strong>
+      <h4 class="menu_item">Gingerbread Cookies</h4>
+      <p class="menu_item-description">9 warm spiced cookies.</p>
+      <strong>Ksh 900.00</strong>
+      <h4 class="menu_item">Peanut Butter Cookies</h4>
+      <p class="menu_item-description">9 soft savoury peanut butter cookies.</p>
+      <strong>Ksh 900.00</strong>
+    </section>
+    <section class="menu_image">
+      <img src="/images/menu.jpeg" alt="Menu">
+    </section>
+  </section>
+  <!--Contact Section-->
+  <section id="contact">
+    <section class="contact">
+      <h1>Contact</h1>
+    <p>We are located along Kiambu Road next to Total Fourways Junction petrol station.</p>
+    <p><strong>You can contact us on +254 79999999 or send us an email on pablowestbakery@gmail.com or send us a message here</strong></p>
+    <h2>Bakery</h2>
+    <form action="" class="contact_form">
+      <label for="order">What would you like to order:</label>
+      <select name="cupcakes" id="cupcakes">
+    <optgroup label="Cupcakes">
+      <option value="red_velvet">Red Velvet</option>
+      <option value="chocolate">Chocolate Cupcakes</option>
+      <option value="vanilla">Vanilla Cupcakes</option>
+    </optgroup>
+    <optgroup label="Cookies">
+      <option value="chocolate_chip">Chocolate Chip Cookies</option>
+      <option value="gingerbread">Gingerbread Cookies</option>
+      <option value="peanut_butter">Peanut Butter Cookies</option>
+    </optgroup>
+    <div class="date_time">
+      <label for="date" class="date">Order Pick Up:</label>
+      <input
+        type="datetime-local"
+        class="date"
+        placeholder="When would you like to pick up order"
+        required
+        name="date"
+        value="2020-11-16t20:20"
+      />
+    </div>
+      <input type="text" placeholder="Message/Special Requirements" required name="Message" />
+      <button class="message_button" type="submit">Submit</button>
+      </form>
+    </section>
+  </section>
+  <!--Footer Section-->
+  <footer class="footer">
+    <p>Powered by <a href="#">Atsenga <span>Media</span> &copy;2021</a></p>
+  </footer>
+</body>
+</html>
