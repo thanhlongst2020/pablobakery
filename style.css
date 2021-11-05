@@ -139,7 +139,7 @@ header .title .header-subtitle{
 .about_content-left{
   max-width: 100%;
   height: 80%;
-  background-image: url(https://github.com/laveatsenga/pablobakery/blob/main/about%20us.jpg);
+  background-image: url(https://github.com/laveatsenga/pablobakery/blob/main/bg_image.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -233,7 +233,7 @@ header .title .header-subtitle{
   .menu_content{
     max-width: 100%;
     height: 80%;
-    background-image: url(/images/menu.jpg);
+    background-image: url(https://github.com/laveatsenga/pablobakery/blob/main/menu.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
